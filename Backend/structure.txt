@@ -1,0 +1,38 @@
+EASYHOME-backend/
+├── config/
+│   ├── db.js
+│   └── paystack.js
+├── controllers/
+│   ├── artisanController.js
+│   ├── authController.js
+│   ├── businessController.js
+│   ├── homeOwnerController.js
+│   ├── jobController.js
+│   ├── paymentController.js
+│   ├── profileController.js
+│   └── withdrawalController.js
+├── middlewares/
+│   ├── authMiddleware.js
+│   ├── errorMiddleware.js
+│   └── uploadMiddleware.js
+├── models/
+│   ├── Artisan.js
+│   ├── Business.js
+│   ├── HomeOwner.js
+│   ├── Job.js
+│   ├── Payment.js
+│   └── Withdrawal.js
+├── routes/
+│   ├── artisanRoutes.js
+│   ├── authRoutes.js
+│   ├── businessRoutes.js
+│   ├── homeOwnerRoutes.js
+│   ├── jobRoutes.js
+│   ├── paymentRoutes.js
+│   └── withdrawalRoutes.js
+├── utils/
+│   ├── generateToken.js
+│   └── sendEmail.js
+├── .env
+├── server.js
+└── package.json
